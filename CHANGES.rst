@@ -277,6 +277,8 @@ astropy.units
 
 - Move non-astronomy units from astrophys.py to a new misc.py file. [#11142]
 
+- Make ``Unit`` string parsing (as well as ``Angle`` parsing) thread-safe.
+
 astropy.utils
 ^^^^^^^^^^^^^
 
