@@ -2111,8 +2111,8 @@ class AiryDisk2D(Fittable2DModel):
     amplitude = Parameter(default=1, description="Amplitude (peak value) of the Airy function")
     x_0 = Parameter(default=0, description="X position of the peak")
     y_0 = Parameter(default=0, description="Y position of the peak")
-    radius = Parameter(default=1, description="The radius of the Airy disk (radius of first zero"
-                                                                                    "  crossing)")
+    radius = Parameter(default=1, 
+                       description="The radius of the Airy disk (radius of first zero crossing)")
     _rz = None
     _j1 = None
 

@@ -4,6 +4,8 @@
 New Features
 ------------
 
+- Adds Model parameter ``description`` for all models. [#11232]
+
 astropy.config
 ^^^^^^^^^^^^^^
 

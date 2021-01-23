@@ -370,6 +370,12 @@ class TestMultipleParameterSets:
         np.testing.assert_almost_equal(self.gmodel.amplitude.value, [13., 10.])
         np.testing.assert_almost_equal(self.gmodel.mean.value, [9., 5.2])
 
+    def test_parameter_description(self):
+        from astropy.modeling.powerlaws import PowerLaw1D
+
+        func = PowerLaw1D()
+        assert func.amplitude.description == "Peak value at the reference point"
+
 
 class TestParameterInitialization:
     """
