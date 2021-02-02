@@ -1210,7 +1210,7 @@ astropy.table
 
 - Fixed byteorder conversion in ``to_pandas()``, which had incorrectly
   triggered swapping when native endianness was stored with explicit
-  ``dtype`` code ``'<'`` (or ``'>'``) instead of ``'='``. [#11288]
+  ``dtype`` code ``'<'`` (or ``'>'``) instead of ``'='``. [#11288, #11294]
 
 astropy.tests
 ^^^^^^^^^^^^^
