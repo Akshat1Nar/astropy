@@ -60,7 +60,6 @@ astropy.io.registry
 - Readers and writers can now set a priority, to assist with resolving which
   format to use. [#11214]
 
-
 astropy.io.votable
 ^^^^^^^^^^^^^^^^^^
 
