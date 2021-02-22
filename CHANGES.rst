@@ -281,10 +281,6 @@ astropy.io.votable
 astropy.modeling
 ^^^^^^^^^^^^^^^^
 
-- Change ``Voigt1D`` function to use Humlicek's approximation to avoid serious
-  inaccuracies + option to use (compiled) ``scipy.special.wofz`` error function
-  for yet more accurate results. [#11177]
-
 astropy.nddata
 ^^^^^^^^^^^^^^
 
@@ -1235,6 +1231,10 @@ astropy.io.votable
 
 astropy.modeling
 ^^^^^^^^^^^^^^^^
+
+- Change ``Voigt1D`` function to use Humlicek's approximation to avoid serious
+  inaccuracies + option to use (compiled) ``scipy.special.wofz`` error function
+  for yet more accurate results. [#11177]
 
 astropy.nddata
 ^^^^^^^^^^^^^^
