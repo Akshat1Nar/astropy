@@ -1069,12 +1069,19 @@ class Voigt1D(Fittable1DModel):
         plt.show()
     """
 
+<<<<<<< HEAD
     x_0 = Parameter(default=0, description="Position of the peak")
     amplitude_L = Parameter(default=1, description="The Lorentzian amplitude")  # noqa: N815
     fwhm_L = Parameter(default=2/np.pi,
                        description="The Lorentzian full width at half maximum") # noqa: N815
     fwhm_G = Parameter(default=np.log(2),
                        description="The Gaussian full width at half maximum")   # noqa: N815
+=======
+    x_0 = Parameter(default=0)
+    amplitude_L = Parameter(default=1)     # noqa: N815
+    fwhm_L = Parameter(default=2/np.pi)    # noqa: N815
+    fwhm_G = Parameter(default=np.log(2))  # noqa: N815
+>>>>>>> 0a29184ea1d5fdc2876e9dd3294c56e32287e0a5
 
     sqrt_pi = np.sqrt(np.pi)
     sqrt_ln2 = np.sqrt(np.log(2))
